@@ -1,9 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-
-import twitterIcon from '../tumblr.svg';
 import tumblrIcon from '../twitter.svg';
-import Colors from './Quotes.jsx'
 
 const Quotes = () => {
     const [quote, setQuote] = useState('');
