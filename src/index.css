@@ -1,75 +1,13 @@
-
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Nunito', sans-serif;
-  background: #0059ff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#quote-box {
-  background: #fff;
-  width: 40rem;
-  margin: 10rem auto;
-  padding: 3rem;
-  border-radius: 5px;
-}
-
-#text {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-#author {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.2rem;
-}
-
-#buttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.social-media {
-  display: flex;
-}
-
-.social-media > a {
-  margin-right: .5rem;
-  background: #0059ff;
-  padding: .3rem .5rem;
-  cursor: pointer;
-  border-radius: 3px;
-}
-
-.social-media > a:hover {
-  opacity: .9;
-}
-
-.social-media > a img {
-  width: 1.5rem;
-}
-
-#new-quote {
-  background: #0059ff;
-  border: none;
-  color: #fff;
-  padding: .7rem 1rem;
-  font-size: .9rem;
-  font-weight: bold;
-  border-radius: 2px;
-  outline: none;
-  cursor: pointer;
-}
-
-#new-quote:hover {
-  opacity: 0.9;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

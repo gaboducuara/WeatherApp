@@ -1,0 +1,42 @@
+.App {
+  background-image: url('./components/icons/night.webp');
+  background-size:cover;
+  color: #E8FFC2;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+  border-radius: 15px;
+  margin-top: 12rem;
+  
+  
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.icon-list ul li {
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+  
+}
+
+.icon-list  img {
+  width: 150px;
+}
+button{
+  display:flex;
+  margin: 20px;
+  border-radius: 10%;
+  background-color: #0E185F;
+  color: #E8FFC2;
+  border: none;
+  width: 40px;
+  height: 30px;
+  align-items: center;
+}
